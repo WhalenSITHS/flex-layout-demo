@@ -1,0 +1,27 @@
+@import "_variables.scss";
+
+.header {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(color(primary), 0.3),
+      rgba(color(primary-dark), 0.3)
+    ),
+    url(../img/H/shop1.jpg);
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 95vh;
+  color: color(light-shade);
+}
+
+.header-main {
+  font-size: 8rem;
+  position: absolute;
+  opacity: 0;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: #fff;
+}

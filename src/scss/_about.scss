@@ -1,0 +1,40 @@
+@import "_variables.scss";
+.about {
+  color: #333;
+  /*  background-image: url(../img/H/shop2.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; */
+}
+.about-gallery {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: color(accent-light);
+}
+.about-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about-text {
+  color: white;
+  font-size: 3rem;
+  width: 40%;
+}
+.about-img {
+  width: 40%;
+}
+.row-1 {
+  align-self: flex-start;
+}
+.row-2 {
+  background-color: #fff;
+  color: black;
+}
+.row-3 {
+  align-self: flex-end;
+}
